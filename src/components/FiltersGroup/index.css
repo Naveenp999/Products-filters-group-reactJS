@@ -1,0 +1,75 @@
+.filter-heading {
+  font-size: 10px;
+  color: #12022f;
+}
+@media screen and (min-width: 768px) {
+  .filter-heading {
+    font-size: 20px;
+  }
+}
+.filter-text {
+  color: #64748b;
+  font-size: 15px;
+}
+@media screen and (min-width: 768px) {
+  .filter-text {
+    font-size: 30px;
+  }
+}
+.horizantal {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.stars-icon {
+  width: 60%;
+  max-width: 200px;
+}
+.button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.filters-list-container {
+  padding: 0px;
+  list-style-type: none;
+  background-color: transparent;
+}
+.search-container-filter {
+  background-color: #f1f5f9;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 1px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
+  .search-container-filter {
+    display: none;
+  }
+}
+.search-input-filter {
+  font-size: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #64748b;
+}
+
+.search-icon-filter {
+  width: 10%;
+}
+
+.clear-btn {
+  border: 1px solid #0967d2;
+  color: #0967d2;
+  font-size: 20px;
+  background-color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+.active {
+  color: #0967d2;
+}
